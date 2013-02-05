@@ -1,0 +1,253 @@
+/*
+Theme Name:Festival
+Theme URI:http://example.com/
+Description:Thème enfant du thème Twenty Twelve
+Author:Votre nom
+Author URI:http://example.com/about/
+Template:twentytwelve
+Version:0.1.0
+*/
+
+@import url("../twentytwelve/style.css");
+
+
+
+body{
+	background-image:url(images/image01.jpg);
+	font-family: fantazy;
+	font-size: 12px;	
+  background-attachment: fixed;
+}
+
+
+
+
+.fg-red {
+background-color: #FF0000;
+font-size:14px !important;
+width:155px;
+border:double; 
+margin:-3px !important;
+text-align: center;
+}
+.fg-Orange{
+background-color: #FFA500;
+font-size:14px !important;
+width:155px;
+border:double;
+margin:-3px !important;
+text-align: center;}
+.fg-Yellow{
+background-color: #FFFF00;
+font-size:14px !important;
+width:155px;
+border:double;
+margin:-3px !important;
+text-align: center;
+}
+.fg-Green{
+background-color: #228B22;
+font-size:14px !important;
+width:155px;
+border:double;
+margin:-3px !important;
+text-align: center;
+}
+.fg-AquaMarine{
+background-color: #7FFFD4;
+font-size:14px !important;
+width:155px;
+border:double;
+margin:-3px !important;
+text-align: center;
+}
+.fg-Blue{
+background-color: #0000FF;
+font-size:14px !important;
+width:155px;
+border:double;
+margin:-3px !important;
+text-align: center;
+}
+
+.site-header h1{
+	background: url("images/logo01.jpeg") no-repeat scroll 0 0 transparent !important;
+    height: 181px;
+    width: 356px;
+}
+
+.site-title a{
+	visibility:hidden;
+}
+
+body .site {
+
+background-color:#FAFAD2 !important;
+border-radius: 10px;
+}
+
+
+
+
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  display: block;
+  left:180px;
+  height:250%;
+  width: 563px;
+  -moz-box-shadow: 10px 10px 5px #656565;
+-webkit-box-shadow: 10px 10px 5px #656565;
+-o-box-shadow: 10px 10px 5px #656565;
+box-shadow: 10px 10px 5px #656565;
+filter:progid:DXImageTransform.Microsoft.Shadow(color='#6565', Direction=135, Strength=5); 
+
+  }
+
+.rslides li {
+  webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+	position: relative;
+	left: 8px;
+  display: block;
+  float: left;
+  width: 550px;
+  height: 250px;
+  border: 0;
+  background: red;
+  border:double;
+  }
+
+
+
+.site-header{
+  background-image:url(images/cine.jpeg) ;
+  background-repeat: no-repeat;  
+   background-position: 99% 5.5%;
+
+
+}
+
+.widget-title{
+  color:#8470FF;
+  font-size:18px;
+}
+.widget_text{
+background-color:#D1D6D7;
+padding: 10px;
+color:black;
+-moz-box-shadow: 13px 13px 5px 0px #9b9b9b;
+-webkit-box-shadow: 13px 13px 5px 0px #9b9b9b;
+-o-box-shadow: 13px 13px 5px 0px #9b9b9b;
+box-shadow: 13px 13px 5px 0px #9b9b9b;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#9b9b9b, Direction=135, Strength=5);
+}
+
+.menu-menu-container{
+  position:relative;
+  -moz-box-shadow: 13px 13px 5px 0px #9b9b9b;
+-webkit-box-shadow: 13px 13px 5px 0px #9b9b9b;
+-o-box-shadow: 13px 13px 5px 0px #9b9b9b;
+box-shadow: 13px 13px 5px 0px #9b9b9b;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#9b9b9b, Direction=135, Strength=5);
+width: 948px;
+}
+
+.post-60{
+ -moz-box-shadow: 13px 13px 20px 0px #656565;
+-webkit-box-shadow: 13px 13px 20px 0px #656565;
+-o-box-shadow: 13px 13px 20px 0px #656565;
+box-shadow: 13px 13px 20px 0px #656565;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=135, Strength=20);
+}
+
+.post-48{
+  -moz-box-shadow: 5px 5px 7px 0px #656565;
+-webkit-box-shadow: 5px 5px 7px 0px #656565;
+-o-box-shadow: 5px 5px 7px 0px #656565;
+box-shadow: 5px 5px 7px 0px #656565;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=7);
+}
+
+.post-46{
+  -moz-box-shadow: 0px 5px 7px 0px #656565;
+-webkit-box-shadow: 0px 5px 7px 0px #656565;
+-o-box-shadow: 0px 5px 7px 0px #656565;
+box-shadow: 0px 5px 7px 0px #656565;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=180, Strength=7);
+}
+
+.archive-title{
+  
+}
+
+
+
+#s{
+  background-color: #FAFAD2;
+-moz-box-shadow: 13px 13px 20px 0px #656565;
+-webkit-box-shadow: 13px 13px 20px 0px #656565;
+-o-box-shadow: 13px 13px 20px 0px #656565;
+box-shadow: 13px 13px 20px 0px #656565;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=135, Strength=20);
+
+}
+
+
+#colophon{
+-moz-box-shadow: -17px -17px 7px -15px #9b9b9b;
+-webkit-box-shadow: -17px -17px 7px -15px #9b9b9b;
+-o-box-shadow: -17px -17px 7px -15px #9b9b9b;
+box-shadow: -17px -17px 7px -15px #9b9b9b;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#9b9b9b, Direction=315, Strength=7);
+border-radius: 7px;
+}
+
+ .entry-content{
+  text-align: justify;
+  padding: 15px;
+}
+
+.post-meta{
+    position: relative;
+    top:14px;
+    left:20px;
+    background: #F5DEB3;
+    width: 220px;
+    padding: 10px;
+  }
+
+  footer{
+    display: none;
+  }
+
+  .archive-title{
+    color:#FAFAD2;
+  }
+
+  article{
+    -moz-box-shadow: 5px 5px 7px 0px #656565;
+-webkit-box-shadow: 5px 5px 7px 0px #656565;
+-o-box-shadow: 5px 5px 7px 0px #656565;
+box-shadow: 5px 5px 7px 0px #656565;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=7);
+
+  }

@@ -1,0 +1,6 @@
+cd .mozilla
+mkdir plugins
+cd plugins
+tar xvf /pub/LP/CMS/install_flash_player_11_linux_x86_64.tar.gz 
+redémarrer Firefox
+

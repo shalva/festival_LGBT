@@ -1,0 +1,32 @@
+/*
+Theme Name:Festival
+Theme URI:http://example.com/
+Description:Thème enfant du thème Twenty Twelve
+Author:Votre nom
+Author URI:http://example.com/about/
+Template:twentytwelve
+Version:0.1.0
+*/
+
+@import url("../twentytwelve/style.css");
+
+.fg-rouge {
+background-color: #ff0000;
+padding: 0 10px;
+ }
+.fg-yellow{
+background-color: #FFFF00;
+}
+.fg-lime{
+background-color: #00FF00;
+}
+.fg-aqua{
+background-color: #00FFFF;
+}
+.fg-blue{
+background-color: #0000FF;
+}
+.fg-Fuchsia{
+background-color: #FF00FF;
+}
+
